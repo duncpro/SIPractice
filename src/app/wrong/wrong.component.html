@@ -1,0 +1,26 @@
+<h2>
+  Oops, that's wrong.
+</h2>
+<p>
+  You answered: {{ userAnswer }}
+</p>
+<div>
+  <p>
+    Any of the following would've been correct...
+  </p>
+  <ul>
+    <li *ngFor="let answer of correctAnswers">{{ answer }}</li>
+  </ul>
+</div>
+
+<div>
+  Remember that <b>{{ prefix }}</b> is the SI prefix for <b>10<sup>{{ n }}</sup></b>.
+</div>
+
+<img width="100%" src="assets/table.png">
+<br>
+<br>
+
+
+
+<button (click)="tryAgain()">Try another question</button>

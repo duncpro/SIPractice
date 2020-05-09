@@ -1,4 +1,6 @@
 # SIPractice
+Dynamic flash cards to help you remember SI unit prefixes. I made this to help me study for chemistry. 
+Demo at https://si-prefix-practice.web.app
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.5.
 

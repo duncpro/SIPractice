@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "SIPractice"
+    }
+  },
+  "defaultProject": "SIPractice",
+  "cli": {
+    "analytics": "90c34862-2e2a-40a3-9dc1-2fad4fec16fe"
+  }
 }

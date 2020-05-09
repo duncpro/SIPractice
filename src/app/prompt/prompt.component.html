@@ -1,0 +1,18 @@
+<div style="text-align: center">
+  <p>
+    Write the following measurements without scientific notation using the appropriate SI prefix.
+  </p>
+
+  <h2>
+    {{ A.toFixed(3) }} &times; 10<sup style="font-size: xx-small;">{{ n }}</sup>&nbsp;&nbsp;{{ unit }}
+  </h2>
+
+  <form>
+    <label>Your Answer: </label>
+    <input type="text" #box (keyup)="onKey(box.value)">
+    <input type="submit" (click)="onDone()" title="Check">
+  </form>
+  <br>
+  <br>
+  (Example: 23.45 centimeters)
+</div>
